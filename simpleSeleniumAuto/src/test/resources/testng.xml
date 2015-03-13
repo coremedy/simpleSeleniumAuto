@@ -1,0 +1,10 @@
+<suite name="simpleSeleniumAuto">
+	<parameter name="url" value="https://en.wikipedia.org/wiki/Main_Page" />
+	<parameter name="credential" value="syd_tester" />
+	<test name="TestCase1">
+		<classes>
+			<class
+				name="com.sydneytesters.selenium.simpleSeleniumAuto.test.threeSimpleOperations" />
+		</classes>
+	</test>
+</suite>
